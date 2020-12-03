@@ -8,21 +8,21 @@
 
 <?php 
 
-$number = array('juanita', 'maria', 'jose');
+$number = array('juanita', 'maria', 'jose', 'RafiX');
 
 //print_r($number);
 
-echo $number[0] . "<br>";
+echo $number[3] . "<br>";
 echo "<br>";  
 
 
 // Associative Array Below
 
-$names = array("first_name" => 'Edwin', "Last_Name" => 'Diaz' );
+$names = array("first_name" => 'Raf', "Last_Name" => 'IX' );
 
 //print_r($names);
 
-echo $names['first_name'] . " " . $names['Last_Name'];
+echo $names['first_name'] . " ***** " . $names['Last_Name'];
     
     
 ?>
