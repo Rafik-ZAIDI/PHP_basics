@@ -22,7 +22,13 @@
 
 
  */
+function addTowNumbers($num1, $num2){
+	$sum= $num1 + $num2;
 
+	echo $sum;
+}
+
+addTowNumbers(5,2);
 	
 ?>
 
