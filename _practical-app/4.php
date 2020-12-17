@@ -26,9 +26,14 @@ function addTowNumbers($num1, $num2){
 	$sum= $num1 + $num2;
 
 	echo $sum;
+	return $sum;
 }
 
-addTowNumbers(5,2);
+echo"total One :";
+$total1 = addTowNumbers(5,2);
+echo"<br>";
+echo"total Two :";
+$total2 = addTowNumbers(10, $total1);
 	
 ?>
 
